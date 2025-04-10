@@ -10,6 +10,10 @@ main {
   display: flex;
   place-content: center;
   align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1642056446459-1f10774273f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxib2FyZGdhbWV8ZW58MHx8MHx8fDI%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 #pop-toast-container {
@@ -17,4 +21,20 @@ main {
   flex-direction: column;
   justify-content: start;
   align-items: end;
+}
+
+
+.add-player-form {
+  background-color: rgba(128, 128, 128, 0.618);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 30vw;
+  color: rgb(69, 185, 239);
+  text-shadow: 1px, 1px;
+}
+
+.player-card {
+  background-color: rgba(128, 128, 128, 0.618);
 }

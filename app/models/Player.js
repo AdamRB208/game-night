@@ -11,8 +11,8 @@ export class Player {
   playerCard() {
     return /* html */ `
     <div class="col-md-3">
-          <div class="card shadow">
-            <img src="${this.picture}" alt="Adams Image">
+          <div class="card shadow mb-4 player-card">
+            <img src="${this.picture}" alt="${this.name}s picture">
             <div class="card-body text-center">
               <h3 class="card-title fs-3">${this.name}</h3>
               <div class="fw-bold fs-5 text-${this.scoreColor}">${this.score}</div>

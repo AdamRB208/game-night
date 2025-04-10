@@ -31,19 +31,20 @@
       <section id="PlayerCards" class="row">
 
       </section>
-      <section class="row">
-        <div class="col-md-6">
+      <section class="row d-flex">
+        <div class="col-md-5 add-player-form">
           <form onsubmit="app.PlayersController.addPlayer()">
-            <div>
+            <h5 class="mt-2">Add a new player here!</h5>
+            <div class="mt-2">
               <label for="name" class="form-label">Player Name:</label>
               <input type="text" minlength="2" maxlength="20" name="name" id="name" required>
             </div>
             <div>
-              <label for="picture">Add a player image...</label>
+              <label for="picture">Add a player image</label>
               <input type="url" name="picture" maxlength="2000" required>
             </div>
             <div>
-              <button type="submit">Add Player</button>
+              <button class="rounded mt-2 mb-2 btn btn-success" type="submit">Add Player</button>
             </div>
           </form>
         </div>
